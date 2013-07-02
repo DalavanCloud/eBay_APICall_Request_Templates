@@ -8132,60 +8132,7 @@
   <paginationInput>
     <entriesPerPage>2</entriesPerPage>
   </paginationInput>
-</findItemsByProductRequest>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.ebay.com/marketplace/search/v1/services/findItemsByProduct"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="http://www.ebay.com/marketplace/search/v1/services/findItemsForFavoriteSearch" name="findItemsForFavoriteSearch" bindingOperationName="findItemsForFavoriteSearch" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Default"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://svcs.ebay.com/services/search/FindingService/v1</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.ebay.com/marketplace/search/v1/services">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <ser:findItemsForFavoriteSearchRequest>
-         <!--Optional:-->
-         <ser:searchId>?</ser:searchId>
-         <!--Optional:-->
-         <ser:searchName>?</ser:searchName>
-         <!--Optional:-->
-         <ser:startTimeFrom>?</ser:startTimeFrom>
-         <!--Optional:-->
-         <ser:paginationInput>
-            <!--Optional:-->
-            <ser:pageNumber>?</ser:pageNumber>
-            <!--Optional:-->
-            <ser:entriesPerPage>?</ser:entriesPerPage>
-            <ser:delimiter>?</ser:delimiter>
-            <!--You may enter ANY elements at this point-->
-         </ser:paginationInput>
-      </ser:findItemsForFavoriteSearchRequest>
-   </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.ebay.com/marketplace/search/v1/services/findItemsForFavoriteSearch"/></con:call><con:call name="Basic_Request_SOAP-not supported"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  <con:entry key="X-EBAY-SOA-OPERATION-NAME" value="findItemsForFavoriteSearch"/>
-  <con:entry key="X-EBAY-SOA-SECURITY-APPNAME" value="YOUR-APP-NAME"/>
-  <con:entry key="X-EBAY-SOA-MESSAGE-PROTOCOL" value="SOAP12"/>
-  <con:entry key="X-EBAY-SOA-GLOBAL-ID" value="EBAY-US"/>
-</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://svcs.ebay.com/services/search/FindingService/v1</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.ebay.com/marketplace/search/v1/services">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <ser:findItemsForFavoriteSearchRequest>
-         <!--Optional:-->
-         <ser:searchId>?</ser:searchId>
-         <!--Optional:-->
-         <ser:searchName>?</ser:searchName>
-         <!--Optional:-->
-         <ser:startTimeFrom>?</ser:startTimeFrom>
-         <!--Optional:-->
-         <ser:paginationInput>
-            <!--Optional:-->
-            <ser:pageNumber>?</ser:pageNumber>
-            <!--Optional:-->
-            <ser:entriesPerPage>?</ser:entriesPerPage>
-            <ser:delimiter>?</ser:delimiter>
-            <!--You may enter ANY elements at this point-->
-         </ser:paginationInput>
-      </ser:findItemsForFavoriteSearchRequest>
-   </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.ebay.com/marketplace/search/v1/services/findItemsForFavoriteSearch"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Basic_Request_XML-not supported"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  <con:entry key="X-EBAY-SOA-OPERATION-NAME" value="findItemsForFavoriteSearch"/>
-  <con:entry key="X-EBAY-SOA-SECURITY-APPNAME" value="YOUR-APP-NAME"/>
-  <con:entry key="Accept-Encoding" value="gzip"/>
-  <con:entry key="CONTENT-TYPE" value="text/xml"/>
-  <con:entry key="X-EBAY-SOA-GLOBAL-ID" value="EBAY-US"/>
-</xml-fragment>]]></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://svcs.ebay.com/services/search/FindingService/v1</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.ebay.com/marketplace/search/v1/services">
+</findItemsByProductRequest>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.ebay.com/marketplace/search/v1/services/findItemsByProduct"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="http://www.ebay.com/marketplace/search/v1/services/findItemsForFavoriteSearch" name="findItemsForFavoriteSearch" bindingOperationName="findItemsForFavoriteSearch" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Reserved for future use"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://svcs.ebay.com/services/search/FindingService/v1</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.ebay.com/marketplace/search/v1/services">
    <soapenv:Header/>
    <soapenv:Body>
       <ser:findItemsForFavoriteSearchRequest>
