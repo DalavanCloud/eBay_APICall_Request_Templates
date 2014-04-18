@@ -11,7 +11,7 @@ INSTRUCTIONS
 
 Instructions for setting up and configuring SoapUI :
 1. Download the "ListingRecommendationServicesAPI_SOAPUI_Sample_Project.xml" project file.
-2. Download soapUI from http://www.soapui.or and install it.
+2. Download soapUI from http://www.soapui.org and install it.
 3. In the File menu, select 'Import Project' and import the "ListingRecommendationServicesAPI_SOAPUI_Sample_Project.xml" file.
 4. After the project is loaded, expand the project tree and select an API call.
 5. Enter your 'user Token' for the Authorization header in the format 'TOKEN UserToken'.
