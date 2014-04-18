@@ -6,7 +6,7 @@ The sample project file covers all supported Finding API calls in both XML and S
 
 Instructions for setting up and configuring SoapUI :
 1. Download the "FindingAPI_SoapUI_Sample_Project.xml" project file.
-2. Download soapUI from http://www.soapui.or and install it.
+2. Download soapUI from http://www.soapui.org and install it.
 3. In the File menu, select 'Import Project' and import the "FindingAPI_SoapUI_Sample_Project.xml" file.
 4. After the project is loaded, expand the project tree and select an API call.
 5. Enter your 'App Name' for the X-EBAY-SOA-SECURITY-APPNAME header for the format (XML or Soap) of interest.
